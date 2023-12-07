@@ -1,0 +1,108 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Garantir que o body ocupe toda a altura da janela */
+    width: 100%; /* Garantir que o body ocupe toda a largura da janela */
+    position: relative; /* Posicionamento relativo para posicionamento absoluto dos filhos */
+    background-color: #CBDCF7;
+}
+
+/* Estilo para a Div no Canto Superior Direito */
+.canto-superior-direito {
+    position: absolute; /* Posicionamento absoluto */
+    top: 0; /* No topo da página */
+    right: 0; /* À direita da página */
+    margin: 10px; /* Uma pequena margem do topo e da direita */
+    margin-right: 40px;
+    text-align: right; /* Alinhar o texto à direita */
+}
+
+/* Estilo do Body para centralizar a div */
+.centered-container {
+    display: flex;
+    flex-direction: column; /* Organiza os itens em coluna */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    position: absolute; /* Posicionamento absoluto */
+    top: 50%; /* Metade da altura do body */
+    left: 50%; /* Metade da largura do body */
+    transform: translate(-50%, -50%); /* Ajuste fino para centralização exata */
+}
+
+
+.timer {
+    border: 3px solid #14539A;
+    border-radius: 13px;
+    padding-left: 11px;
+    padding-right: 11px;
+     width: 500px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #horaAtual{
+    font-size: 120px;
+  }
+
+  #h2-ponto {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    font-size: 38px; 
+  }
+
+  .input-ponto {
+    padding: 12px;
+    border-radius: 7px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border: solid 2px #568DE5;
+  }
+
+  .btn-ponto {
+    margin-top: 5px;
+    width: 100px;
+    height: 40px;
+    padding: 10px 15px;
+    font-size: 26px;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #14539A;
+    color: #ffff;
+    border-radius:5px;
+    border: none;
+  }
+  .btn-ponto:hover{
+    background-color: #568DE5;
+  }
+
+
+
+  .h2-sinc {
+    text-align: center;
+    font-size: 24px; 
+  }
+
+
+  .btn-ponto-sup {
+    
+    width: 150px;
+    height: 50px;
+    padding: 10px 15px;
+    font-size: 26px;
+    cursor: pointer;
+    font-size: 14.5px;
+    background-color: #228197;
+    color: #ffff;
+    border-radius:5px;
+    border: none;
+  }
+  .btn-ponto-sup:hover{
+    background-color: #568DE5;
+  }
+
+  #testParagraph {
+    margin-left: 10px;
+  }
